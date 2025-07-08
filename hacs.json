@@ -1,10 +1,6 @@
 {
-  "name": "Alexa Devices Custom",
+  "name": "Free Mobile SMS XA",
   "content_in_root": false,
-  "filename": null, 
   "homeassistant": "2024.6.0",
-  "render_readme": true,
-  "hide_default_branch": false,
-   "country": ["FR"],
-  "persistent_directory": []
+  "render_readme": true
 }
