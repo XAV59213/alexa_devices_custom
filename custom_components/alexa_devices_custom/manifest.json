@@ -2,9 +2,9 @@
   "domain": "alexa_devices_custom",
   "name": "Alexa Devices Custom",
   "config_flow": true,
-  "documentation": "https://github.com/yourusername/alexa_devices_custom",
+  "documentation": "https://github.com/XAV59213/alexa_devices_custom",
   "requirements": ["aioamazondevices==3.2.8"],
-  "codeowners": ["@yourusername"],
+  "codeowners": ["@XAV59213"],
   "integration_type": "hub",
   "iot_class": "cloud_polling"
 }
