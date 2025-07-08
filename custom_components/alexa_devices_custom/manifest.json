@@ -9,5 +9,4 @@
   "loggers": ["aioamazondevices"],
   "quality_scale": "bronze",
   "requirements": ["aioamazondevices==3.2.8"]
-  "version": "1.0.0"
 }
