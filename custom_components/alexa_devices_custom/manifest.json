@@ -7,6 +7,6 @@
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/XAV59213/alexa_devices_custom/issues",
-  "requirements": ["aioamazondevices==3.2.8"],
+  "requirements": ["aioamazondevices==3.2.9-rc.1"],
   "version": "1.0.0"
 }
