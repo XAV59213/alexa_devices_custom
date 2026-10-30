@@ -1,5 +1,7 @@
 # alexa_devices_custom
 
+[![Downloads](https://img.shields.io/github/downloads/XAV59213/alexa_devices_custom/total.svg?label=Downloads)](https://github.com/XAV59213/alexa_devices_custom/releases)
+
 Custom integration for Alexa Devices as a clone of the built-in `alexa_devices` component.
 
 ## Features
