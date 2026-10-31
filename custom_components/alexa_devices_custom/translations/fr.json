@@ -1,0 +1,87 @@
+{
+  "config": {
+    "flow_title": "{username}",
+    "step": {
+      "user": {
+        "data": {
+          "country": "Pays",
+          "username": "Nom d’utilisateur",
+          "password": "Mot de passe",
+          "code": "Mot de passe à usage unique (code OTP)"
+        },
+        "data_description": {
+          "country": "Le pays dans lequel votre compte Amazon est enregistré.",
+          "username": "L’adresse e-mail de votre compte Amazon.",
+          "password": "Le mot de passe de votre compte Amazon.",
+          "code": "Le mot de passe à usage unique pour vous connecter à votre compte. Actuellement, seuls les codes générés par une application OTP sont pris en charge."
+        }
+      },
+      "reauth_confirm": {
+        "data": {
+          "password": "Mot de passe",
+          "code": "Mot de passe à usage unique (code OTP)"
+        },
+        "data_description": {
+          "password": "Le mot de passe de votre compte Amazon.",
+          "code": "Le mot de passe à usage unique pour vous connecter à votre compte. Actuellement, seuls les codes générés par une application OTP sont pris en charge."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Le service est déjà configuré",
+      "cannot_connect": "Échec de la connexion",
+      "invalid_auth": "Authentification invalide",
+      "reauth_successful": "La réauthentification a réussi",
+      "unknown": "Erreur inattendue"
+    },
+    "error": {
+      "cannot_connect": "Échec de la connexion",
+      "invalid_auth": "Authentification invalide",
+      "wrong_country": "Mauvais pays sélectionné. Veuillez choisir le pays dans lequel votre compte Amazon est enregistré.",
+      "unknown": "Erreur inattendue"
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "bluetooth": {
+        "name": "Bluetooth"
+      },
+      "baby_cry_detection": {
+        "name": "Pleurs de bébé"
+      },
+      "beeping_appliance_detection": {
+        "name": "Appareil qui bipe"
+      },
+      "cough_detection": {
+        "name": "Toux"
+      },
+      "dog_bark_detection": {
+        "name": "Aboiements de chien"
+      },
+      "water_sounds_detection": {
+        "name": "Bruits d’eau"
+      }
+    },
+    "notify": {
+      "speak": {
+        "name": "Parler"
+      },
+      "announce": {
+        "name": "Annoncer"
+      }
+    },
+    "switch": {
+      "do_not_disturb": {
+        "name": "Ne pas déranger"
+      }
+    }
+  },
+  "exceptions": {
+    "cannot_connect": {
+      "message": "Erreur de connexion : {error}"
+    },
+    "cannot_retrieve_data": {
+      "message": "Erreur lors de la récupération des données : {error}"
+    }
+  }
+}
